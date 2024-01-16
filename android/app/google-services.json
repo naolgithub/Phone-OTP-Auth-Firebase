@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "481297222762",
+    "project_id": "phone-auth-a667b",
+    "storage_bucket": "phone-auth-a667b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481297222762:android:e580ec8cc65a5b9a6e0e13",
+        "android_client_info": {
+          "package_name": "com.example.otp_auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIR7AO0EqXJXcdROHUm2bUjRHmGcEPaHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
