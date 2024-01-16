@@ -4,7 +4,7 @@ Flutter app with a phone authentication OTP feature with Firebase.
 
 This Flutter app includes a fully functional phone authentication feature with Firebase integration.
 
-The app has a beautifully designed interface that allows users to login using phone authentication OTP. Users can select their country code from a list made with the country_picker 2.0.20 package.
+The app has a beautifully designed interface that allows users to login using phone authentication OTP. Users can select their country code from a list made with the country_picker package.
 
 Using Firebase, the app can save user information such as name, phone number, email, profile picture, and bio. Once signed in, users can login and lockout without losing any of their account data.
 
@@ -28,6 +28,10 @@ Features:
   3.Linux: keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
 
 - Enable App Check
+- under android->app->build.gradle:
+   add: dependencies {
+    implementation("com.google.firebase:firebase-appcheck-playintegrity")
+   }
 - Enable Google Play Integrity API from GCP
 ## Demo
 
